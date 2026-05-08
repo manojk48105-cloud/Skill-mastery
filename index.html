@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pro-Guide Mastery Hub</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
+        body { font-family: 'Inter', sans-serif; -webkit-tap-highlight-color: transparent; }
+        .app-card { border-radius: 32px; transition: all 0.3s ease; }
+        .app-card:active { transform: scale(0.98); }
+    </style>
+</head>
+<body class="bg-[#f8fafc] text-slate-900">
+
+    <!-- Mobile Header -->
+    <nav class="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-200 px-6 py-4 flex justify-between items-center">
+        <div class="flex items-center gap-3">
+            <div class="bg-indigo-600 w-10 h-10 rounded-xl flex items-center justify-center text-white shadow-lg shadow-indigo-200">
+                <i class="fas fa-rocket"></i>
+            </div>
+            <h1 class="text-xl font-black tracking-tight">PRO-GUIDE <span class="text-indigo-600">HUB</span></h1>
+        </div>
+        <div class="bg-emerald-100 text-emerald-700 text-[10px] font-black px-3 py-1 rounded-full uppercase">Live</div>
+    </nav>
+
+    <div class="p-6 space-y-8 max-w-md mx-auto">
+        
+        <!-- Hero Section -->
+        <header class="bg-indigo-900 app-card p-8 text-white relative overflow-hidden shadow-2xl shadow-indigo-100">
+            <div class="relative z-10">
+                <h2 class="text-3xl font-black mb-3">Skill Mastery Encyclopedia</h2>
+                <p class="text-indigo-100 text-sm opacity-80 leading-relaxed mb-6">The definitive roadmap for modern builders, creators, and engineers.</p>
+                <div class="flex gap-2">
+                    <span class="bg-white/10 px-3 py-1 rounded-lg text-[10px] font-bold border border-white/10">v1.0 Mobile</span>
+                    <span class="bg-white/10 px-3 py-1 rounded-lg text-[10px] font-bold border border-white/10">Uttar Pradesh</span>
+                </div>
+            </div>
+            <i class="fas fa-bolt absolute -right-4 -bottom-4 text-white/5 text-9xl"></i>
+        </header>
+
+        <!-- Skill Grid -->
+        <div class="grid gap-4">
+            <!-- Software -->
+            <div class="bg-white p-6 app-card border border-slate-200 shadow-sm flex items-center gap-5">
+                <div class="bg-blue-50 text-blue-600 w-12 h-12 rounded-2xl flex-shrink-0 flex items-center justify-center">
+                    <i class="fas fa-terminal"></i>
+                </div>
+                <div>
+                    <h4 class="font-black text-slate-800">Software Dev</h4>
+                    <p class="text-[11px] text-slate-500">Python, React, & AI Engineering.</p>
+                </div>
+            </div>
+
+            <!-- Content -->
+            <div class="bg-white p-6 app-card border border-slate-200 shadow-sm flex items-center gap-5">
+                <div class="bg-purple-50 text-purple-600 w-12 h-12 rounded-2xl flex-shrink-0 flex items-center justify-center">
+                    <i class="fas fa-video"></i>
+                </div>
+                <div>
+                    <h4 class="font-black text-slate-800">Content Strategy</h4>
+                    <p class="text-[11px] text-slate-500">Viral hooks & retention editing.</p>
+                </div>
+            </div>
+
+            <!-- Monetization -->
+            <div class="bg-white p-6 app-card border border-slate-200 shadow-sm flex items-center gap-5">
+                <div class="bg-emerald-50 text-emerald-600 w-12 h-12 rounded-2xl flex-shrink-0 flex items-center justify-center">
+                    <i class="fas fa-coins"></i>
+                </div>
+                <div>
+                    <h4 class="font-black text-slate-800">Monetization</h4>
+                    <p class="text-[11px] text-slate-500">SaaS models & High-ticket sales.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Deployment Info -->
+        <div class="bg-slate-900 app-card p-8 text-white">
+            <h3 class="text-sm font-black uppercase tracking-widest text-indigo-400 mb-6 text-center">App Launch Pad</h3>
+            <div class="space-y-6">
+                <div class="flex gap-4">
+                    <div class="text-indigo-500 font-black text-xl">01</div>
+                    <div>
+                        <h5 class="text-sm font-bold">Copy Your Link</h5>
+                        <p class="text-[10px] text-slate-400 mt-1">Copy the .vercel.app link from your browser.</p>
+                    </div>
+                </div>
+                <div class="flex gap-4">
+                    <div class="text-emerald-500 font-black text-xl">02</div>
+                    <div>
+                        <h5 class="text-sm font-bold">Build the APK</h5>
+                        <p class="text-[10px] text-slate-400 mt-1">Paste it into PWABuilder.com and download for Android.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="py-10 text-center">
+            <p class="text-[10px] font-bold text-slate-300 uppercase tracking-[0.3em]">&copy; 2026 PRO-GUIDE HUB</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
